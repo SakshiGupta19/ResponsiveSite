@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(60, 143, 211);
+    margin: 0%;
+}
+
+.header{
+    
+    background-color: white;
+    height: 70px;
+    border: 2px solid white;
+    
+}
+
+.img{
+    margin-top: 15px;
+    margin-left:50px;
+    height: 35px;
+}
+.menu{
+    float:right;
+    list-style: none;
+    margin: 25px;
+    display: flex;
+    
+}
+.menu li{
+    margin-left: 40px;
+    font-family: monospace;
+    font-size: 16px;
+}
+.menu li:hover{
+    color: blue;
+}
+
+.heading {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 50px;
+    margin-top: 5%;
+    }
+.container2{
+        display: flex;
+        margin: 20px;
+}
+
+.box1{
+    width: 30%;
+    background-color: white;
+    height: auto;
+    margin: 20px;
+}
+
+.box1 h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+
+.img1{
+    border-radius:50%;
+    width: 75%;
+    height: 270px;
+    margin-left: 13%;
+    
+}
+
+.box1 p{
+    text-align: center;
+    font-style: italic;
+}
+
+.btn{
+    border: 2px solid rgb(155, 207, 228);
+    background-color: rgb(155, 207, 228);
+    font-size: 20px;
+    margin-bottom: 10%;
+    margin-left: 37%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100px;
+    height: auto;
+
+}
+
+.btn:hover{
+    color: white;
+}
+
+.box2  {
+    width: 30%;
+    background-color: white;
+    height:auto;
+    margin: 20px;
+
+}
+
+.box2 h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+
+.box2 p{
+    text-align: center;
+    font-style: italic;
+}
+
+.box3{
+    width: 30%;
+    background-color: white;
+    height:auto;
+    margin: 20px;
+}
+
+.box3 h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 25px;
+
+}
+.box3 p{
+    text-align: center;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(61, 58, 58);
+    color: white;
+    width: 100%;
+    height: 200px;
+    padding-top:20px;
+}
+footer p{
+    font-size: 16px;
+
+}
+
+.last{
+    margin-top: 65px;
+}
+.last a{
+    color: rgb(113, 170, 207);
+}
+.last a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+
+.container2{display:flex; flex-direction: column;}
+.box1{width:90%; height: auto;}
+.box2{width:90%; height: auto;}
+.box3{width:90%; height: auto;}
+.container :not(:first-child) {display: none;}
+.heading{font-size: 30px;}
+  
+  
+
+}
